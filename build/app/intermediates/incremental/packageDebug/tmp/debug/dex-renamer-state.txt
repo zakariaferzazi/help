@@ -1,0 +1,4 @@
+#Mon Nov 07 13:24:14 WEST 2022
+base.0=/Users/apple/Desktop/Flutter Projects/help/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

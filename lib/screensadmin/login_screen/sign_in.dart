@@ -44,9 +44,7 @@ class _sign_inState extends State<sign_in> {
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
-
     AuthService authService = new AuthService();
-
     bool isLoading = false;
 
     signIn() async {

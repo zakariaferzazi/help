@@ -665,7 +665,7 @@ class _add_requestuserState extends State<add_requestuser> {
 
   sendMessage() async {
     final userName = "support";
-    final otherUseruid = "JutsJ9vY8xPm8SoGDfelwW5KuH33";
+    final otherUseruid = "P9S7AG9HhoZKeKKqFxrIx7zX4C92";
     Constants.chatRoomId = getChatRoomId1(Constants.myName, userName);
     List<String> users = [Constants.myName, userName];
     Map<String, dynamic> chatRoom = {
@@ -969,15 +969,7 @@ class _add_requestuserState extends State<add_requestuser> {
                       ),
                     ],
                   ),
-                  SizedBox(
-                    height: 5,
-                  ),
-                  Text(
-                    """سيتم نشر بعض هذه المعلومات على صفحة الضحاي
-                        ا لتحدير لأخرين""",
-                    textAlign: TextAlign.end,
-                    style: TextStyle(fontSize: 15, color: Colors.grey),
-                  ),
+
                   SizedBox(
                     height: MediaQuery.of(context).size.height * 0.05,
                   ),

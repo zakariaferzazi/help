@@ -49,7 +49,7 @@ void main() async {
 
   if(FirebaseAuth.instance.currentUser != null){
   if (FirebaseAuth.instance.currentUser?.emailVerified != false){
-    if(Constants.myEmail=="support@gmail.com"){
+    if(Constants.myEmail=="support@yemenaman.com"){
     runApp(const MyAppSupport());
     }else{
     runApp(const MyAppUser());

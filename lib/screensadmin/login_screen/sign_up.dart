@@ -80,7 +80,7 @@ class _sign_upState extends State<sign_up> {
                 querySnapshot.docs.forEach((documentSnapshot) async{
                   print(
                       "--------------------------------------------------------------------------");
-                  print(documentSnapshot.data()["userName"]);
+                  print(documentSnapshot.data()["userNfame"]);
                   Constants.myName = await documentSnapshot.data()["userName"];
                   Constants.myEmail = await documentSnapshot.data()["userEmail"];
                   ;
@@ -223,7 +223,7 @@ class _sign_upState extends State<sign_up> {
                         hintText: 'البريد الإلكتروني',
                       ),
                       validator: (val) {
-                        if (val == "support@gmail.com") {
+                        if (val == "support@yemenaman.com") {
                           return 'الرجاء كتابة بريد اخر';
                         }
                         return RegExp(

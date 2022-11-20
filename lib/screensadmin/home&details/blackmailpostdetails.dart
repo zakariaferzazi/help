@@ -98,9 +98,7 @@ class DBlackMailPostdetailsState extends State<BlackMailPostdetails> {
   Widget build(BuildContext context) {
     double displayWidth = MediaQuery.of(context).size.width;
     double displayHeight = MediaQuery.of(context).size.height;
-    DateTime date =
-        DateTime.parse(widget.item['when this start'].toDate().toString());
-    final datedone = DateFormat('dd-MMM-yyy').format(date);
+
     final images = [
       widget.item['image1'],
       widget.item['image2'],
@@ -251,7 +249,7 @@ class DBlackMailPostdetailsState extends State<BlackMailPostdetails> {
                     ),
                   ),
                   subtitle: Text(
-                    datedone,
+                    widget.item["when this start"],
                     textAlign: TextAlign.end,
                     style: TextStyle(
                       color: OurColor.titleTextColor,

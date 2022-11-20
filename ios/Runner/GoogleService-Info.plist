@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>980841577286-ebej59a5gjmqtog6157hcj55vqml1shp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.980841577286-ebej59a5gjmqtog6157hcj55vqml1shp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfQ2mNS20SgIY2f1A-RIgbHBu8JqIeBtI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>980841577286</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yemen.aman</string>
+	<key>PROJECT_ID</key>
+	<string>fight-blackmailing</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fight-blackmailing.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:980841577286:ios:76a2ddf2e560f208bbc347</string>
+</dict>
+</plist>

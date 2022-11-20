@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "980841577286",
+    "project_id": "fight-blackmailing",
+    "storage_bucket": "fight-blackmailing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980841577286:android:c5ef21105cb4c758bbc347",
+        "android_client_info": {
+          "package_name": "com.yemen.aman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980841577286-14fff84a8o74uqkf2bq4ipha3t5f83bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABx18Ae2MdUkFLs8cqXuxMafNEpy89elo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980841577286-14fff84a8o74uqkf2bq4ipha3t5f83bp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "980841577286-3tnkvkrseb2mjpjvedb2jbeq936nk7ao.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.help"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
